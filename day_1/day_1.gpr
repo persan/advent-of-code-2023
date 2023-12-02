@@ -1,0 +1,15 @@
+--  https://adventofcode.com/2023/day/1
+
+project Day_1 is
+
+   for Source_Dirs use ("src/**");
+   for Object_Dir use ".obj";
+   for Main use project'Main & "day_1-main_2.adb";
+   for Main use project'Main & "day_1-main_1.adb";
+
+   package Compiler is
+      for Switches ("ada") use ("-gnatX", "-gnatf", "-gnatwa");
+   end Compiler;
+
+end Day_1;
+

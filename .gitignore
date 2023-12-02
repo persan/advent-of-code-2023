@@ -1,0 +1,10 @@
+b__*
+*.o
+*.ali
+*-loc.xml
+*.stderr
+*.stdout
+*.bexch
+.obj
+bin
+
